@@ -32,7 +32,7 @@ jobs:
             python3-virtualenv autoconf libtool libtool-bin pkg-config \
             zlib1g-dev libncurses5-dev libncursesw5-dev \
             libtinfo6 cmake libffi-dev libssl-dev \
-            automake autopoint gettext
+            automake autopoint gettext m4
 
       - name: Install Buildozer
         run: |
